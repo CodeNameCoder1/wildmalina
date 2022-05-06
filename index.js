@@ -16,7 +16,7 @@ bot.hear(/Начать/i, async (msg, next) => {
    msg.send('🎁 Поздравляю, вы участник самого крупного розыгрыша 2022 года среди пользователей VK')
 
    vk.upload.messagePhoto({
-     source:{ value:'media/qweqwe.jpg'} //картинка, в моём случае из буффера
+     source:{ value:'https://sun9-83.userapi.com/s/v1/if2/wej2RTf7tc0opP8Drw97kpoMamOD6BxMcGJ7IwfRZ3m7zJ9JejsR2IdUowesR2SvbT3RvoVCSZu55eEg2LlAqHxf.jpg?size=1280x1280&quality=96&type=album'} //картинка, в моём случае из буффера
    }).then((attachment) =>
    msg.send({
      message: 'Перед вами 6     коробочек, угадайте в какой коробочке будет подарок и сможете его забрать!', //сообщение
@@ -36,7 +36,7 @@ bot.hear(/Начать/i, async (msg, next) => {
 bot.hear(/1 🎁/i, async (msg, next) => {
     const [user_info] = await vk.api.users.get({ user_ids: msg.senderId, fields: "sex" });
     vk.upload.messagePhoto({
-        source:{ value:'media/asdasd.jpg'} //картинка, в моём случае из буффера
+        source:{ value:'https://sun9-22.userapi.com/s/v1/if2/ibaAYJKL9qv5c5YrdfUrSUAkJoS1FFJkcnDW61Qa321Tdw6Vfo1egg5UR6aUMtPz2_TQ9bXnK5rDrJoQ5H4zdaHQ.jpg?size=2440x2160&quality=96&type=album'} //картинка, в моём случае из буффера
       }).then((attachment) =>
       msg.send({
         message: `🎁 Поздравляем: вам выпала коробочка с деньгами 💵
@@ -63,7 +63,7 @@ bot.hear(/1 🎁/i, async (msg, next) => {
 bot.hear(/2 🎁/i, async (msg, next) => {
     const [user_info] = await vk.api.users.get({ user_ids: msg.senderId, fields: "sex" });
     vk.upload.messagePhoto({
-        source:{ value:'media/asdasd.jpg'} //картинка, в моём случае из буффера
+        source:{ value:'https://sun9-22.userapi.com/s/v1/if2/ibaAYJKL9qv5c5YrdfUrSUAkJoS1FFJkcnDW61Qa321Tdw6Vfo1egg5UR6aUMtPz2_TQ9bXnK5rDrJoQ5H4zdaHQ.jpg?size=2440x2160&quality=96&type=album'} //картинка, в моём случае из буффера
       }).then((attachment) =>
       msg.send({
         message: `🎁 Поздравляем: вам выпала коробочка с деньгами 💵
@@ -89,7 +89,7 @@ bot.hear(/2 🎁/i, async (msg, next) => {
 bot.hear(/3 🎁/i, async (msg, next) => {
     const [user_info] = await vk.api.users.get({ user_ids: msg.senderId, fields: "sex" });
     vk.upload.messagePhoto({
-        source:{ value:'media/asdasd.jpg'} //картинка, в моём случае из буффера
+        source:{ value:'https://sun9-22.userapi.com/s/v1/if2/ibaAYJKL9qv5c5YrdfUrSUAkJoS1FFJkcnDW61Qa321Tdw6Vfo1egg5UR6aUMtPz2_TQ9bXnK5rDrJoQ5H4zdaHQ.jpg?size=2440x2160&quality=96&type=album'} //картинка, в моём случае из буффера
       }).then((attachment) =>
       msg.send({
         message: `🎁 Поздравляем: вам выпала коробочка с деньгами 💵
@@ -115,7 +115,7 @@ bot.hear(/3 🎁/i, async (msg, next) => {
 bot.hear(/4 🎁/i, async (msg, next) => {
     const [user_info] = await vk.api.users.get({ user_ids: msg.senderId, fields: "sex" });
     vk.upload.messagePhoto({
-        source:{ value:'media/asdasd.jpg'} //картинка, в моём случае из буффера
+        source:{ value:'https://sun9-22.userapi.com/s/v1/if2/ibaAYJKL9qv5c5YrdfUrSUAkJoS1FFJkcnDW61Qa321Tdw6Vfo1egg5UR6aUMtPz2_TQ9bXnK5rDrJoQ5H4zdaHQ.jpg?size=2440x2160&quality=96&type=album'} //картинка, в моём случае из буффера
       }).then((attachment) =>
       msg.send({
         message: `🎁 Поздравляем: вам выпала коробочка с деньгами 💵
@@ -142,7 +142,7 @@ bot.hear(/4 🎁/i, async (msg, next) => {
 bot.hear(/5 🎁/i, async (msg, next) => {
     const [user_info] = await vk.api.users.get({ user_ids: msg.senderId, fields: "sex" });
     vk.upload.messagePhoto({
-        source:{ value:'media/asdasd.jpg'} //картинка, в моём случае из буффера
+        source:{ value:'https://sun9-22.userapi.com/s/v1/if2/ibaAYJKL9qv5c5YrdfUrSUAkJoS1FFJkcnDW61Qa321Tdw6Vfo1egg5UR6aUMtPz2_TQ9bXnK5rDrJoQ5H4zdaHQ.jpg?size=2440x2160&quality=96&type=album'} //картинка, в моём случае из буффера
       }).then((attachment) =>
       msg.send({
         message: `🎁 Поздравляем: вам выпала коробочка с деньгами 💵
@@ -169,7 +169,7 @@ bot.hear(/5 🎁/i, async (msg, next) => {
 bot.hear(/6 🎁/i, async (msg, next) => {
     const [user_info] = await vk.api.users.get({ user_ids: msg.senderId, fields: "sex" });
     vk.upload.messagePhoto({
-        source:{ value:'media/asdasd.jpg'} //картинка, в моём случае из буффера
+        source:{ value:'https://sun9-22.userapi.com/s/v1/if2/ibaAYJKL9qv5c5YrdfUrSUAkJoS1FFJkcnDW61Qa321Tdw6Vfo1egg5UR6aUMtPz2_TQ9bXnK5rDrJoQ5H4zdaHQ.jpg?size=2440x2160&quality=96&type=album'} //картинка, в моём случае из буффера
       }).then((attachment) =>
       msg.send({
         message: `🎁 Поздравляем: вам выпала коробочка с деньгами 💵
