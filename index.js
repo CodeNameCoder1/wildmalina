@@ -211,7 +211,7 @@ bot.hear(/✅ Забрать 1000Р/i, msg => {
     Жми на кнопку ⤵`,
         keyboard:  Keyboard.builder().urlButton({ 
             label: '✅ Забрать 1000Р',
-            url: 'https://vk.cc/cdlxDn'
+            url: 'https://vk.cc/cdly39'
         }).inline()})
 
 
