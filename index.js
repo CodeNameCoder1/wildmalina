@@ -211,7 +211,7 @@ bot.hear(/✅ Забрать 1000Р/i, msg => {
     Жми на кнопку ⤵`,
         keyboard:  Keyboard.builder().urlButton({ 
             label: '✅ Забрать 1000Р',
-            url: 'https://gslink.ru/stream/luckbotvk'
+            url: 'https://vk.cc/cdlxDn'
         }).inline()})
 
 
